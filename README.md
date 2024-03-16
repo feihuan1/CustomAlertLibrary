@@ -12,6 +12,9 @@ This save you many lines of code.
 
 you can simply add a modifier on a view and pass in title and message you want show
 ```swift
+import SwiftUI
+import CustomAlert
+
 struct ContentView: View {
     @State private var showAlert = false
 
@@ -34,6 +37,9 @@ struct ContentView: View {
 or You can also create an Alert with custom fontsize, Box size and background clor
 
 ```swift
+import SwiftUI
+import CustomAlert
+
 struct ContentView: View {
     @State private var showAlert = false
 
