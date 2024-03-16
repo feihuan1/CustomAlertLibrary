@@ -9,7 +9,7 @@
 
 import SwiftUI
 
-@available(macOS 10.15, *)
+@available(iOS 16.0, *)
 public struct CustomAlertView: View {
     var title: String
     var message: String
@@ -36,7 +36,7 @@ public struct CustomAlertView: View {
     }
 }
 
-@available(macOS 10.15, *)
+@available(iOS 16.0, *)
 public struct CustomAlertModifier: ViewModifier {
     @Binding var isPresented: Bool
     var title: String
@@ -63,7 +63,7 @@ public struct CustomAlertModifier: ViewModifier {
     }
 }
 
-@available(macOS 10.15, *)
+@available(iOS 16.0, *)
 extension View {
     public func customAlert(isPresented: Binding<Bool>,
                             title: String,
